@@ -1,0 +1,28 @@
+name: RowdyTools2
+version: '${project.version}'
+main: rowdytools.rowdytools_2.RowdyTools2
+api-version: 1.19
+authors: [ rowdyslav, chatgpt ]
+description: Набор фич которые роуди сделал с чатжпт + звуки с тотемов
+commands:
+  hidewelcome:
+    description: "Отключить звук приветствия новых игроков"
+    usage: "/hidewelcome"
+  jump:
+    description: "Подкинуть себя или другого игрока на несколько блоков"
+    usage: "/jump [игрок]"
+  name:
+    description: "Переименовать предмет в руке"
+    usage: "/name <имя>"
+  ngive:
+    description: "Выдать предмет с именем"
+    usage: "/ngive <предмет> [имя] [игрок]"
+  totems:
+    description: "Список скинов на тотемы"
+    usage: "/totems"
+  rowdytools:
+    description: "Перезагрузить кфг плагина"
+    usage: "/rowdytools reload"
+  rt:
+    description: "Перезагрузить кфг плагина"
+    usage: "/rt reload"
